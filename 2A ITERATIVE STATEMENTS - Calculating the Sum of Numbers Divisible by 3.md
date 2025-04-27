@@ -2,13 +2,9 @@
 ## ITERATIVE STATEMENTS – Calculating the Sum of Numbers Divisible by 3
 
 ###  Aim
-
-  To create a Python program that calculates and prints the sum of all natural numbers up to a given number 'N' that are divisible by 3.
-
----
+To create a Python program that calculates and prints the sum of all natural numbers up to a given number 'N' that are divisible by 3.
 
 ###  Algorithm
-
 1.	Begin the program. 
 2.	Use the input() function to read the upper limit 'N' from the user. 
 3.	Convert the input to an integer using the int() function. 
@@ -18,9 +14,7 @@
 7.	If the number is divisible by 3, add it to the sum_of_multiples variable. 
 8.	After the loop finishes, print the final value of sum_of_multiples with an appropriate message. 
 9.	Terminate the program.
-
----
-
+    
 ### 🧾 Program
 
 ```python
@@ -34,15 +28,13 @@ for i in range(1,n+1):
     if i%3==0:
         sum=sum+i
 print("Sum is:",sum)
-
 ```
 ### OUTPUT
 ```
-![LAB2 DAY1](https://github.com/user-attachments/assets/21e77d2a-4f68-46f6-8d43-6bad41b6a75c)
-
+![LAB2 DAY1](https://github.com/user-attachments/assets/f549c5de-7bcb-454f-a849-7e62682b6c2f)
 ```
 ### RESULT
 ```
-
+Thus, the implementation of the Python program for calculating the sum of natural numbers up to N that are divisible by 3 was verified successfully.
 ```
 
