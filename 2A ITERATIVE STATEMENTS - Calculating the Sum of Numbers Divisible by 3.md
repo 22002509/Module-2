@@ -2,18 +2,19 @@
 ## ITERATIVE STATEMENTS – Calculating the Sum of Numbers Divisible by 3
 
 ###  Aim
-To create a Python program that calculates and prints the sum of all natural numbers up to a given number 'N' that are divisible by 3.
+To write a Python program that determines whether a given number is a palindrome.
 
 ###  Algorithm
-1.	Begin the program. 
-2.	Use the input() function to read the upper limit 'N' from the user. 
-3.	Convert the input to an integer using the int() function. 
-4.	Initialize a variable, say sum_of_multiples, to 0. This variable will store the sum. 
-5.	Use a for loop to iterate through the natural numbers from 1 up to 'N' (inclusive). 
-6.	Inside the loop, for each number i, check if it is divisible by 3 using the modulo operator (%). If i % 3 == 0, it means the number is divisible by 3. 
-7.	If the number is divisible by 3, add it to the sum_of_multiples variable. 
-8.	After the loop finishes, print the final value of sum_of_multiples with an appropriate message. 
-9.	Terminate the program.
+1.	Begin the program.
+2.	Use input() to read the number from the user.
+3.	Convert the input to an integer.
+4.	Store the original number in a temporary variable.
+5.	Initialize a variable to store the reverse of the number.
+6.	Use a while loop to extract the digits of the number and construct its reverse.
+7.	Compare the reverse of the number with the original number.
+8.	If they are equal, print that the number is a palindrome.
+9.	Otherwise, print that the number is not a palindrome.
+10.	Terminate the program
     
 ### 🧾 Program
 
@@ -23,16 +24,20 @@ To create a Python program that calculates and prints the sum of all natural num
 #Write your Code here
 
 n=int(input())
-sum=0
-for i in range(1,n+1):
-    if i%3==0:
-        sum=sum+i
-print("Sum is:",sum)
+temp=n
+rev=0
+while n!=0:
+    d=n%10
+    rev=rev*10+d
+    n=n//10
+if (temp==rev):
+    print(f"The given number {temp} is a Palindrome")
+else:
+    print(f"The given number {temp} is not a palindrome")
 ```
 ### OUTPUT
 ```
-![LAB2 DAY1](https://github.com/user-attachments/assets/bb09f919-044c-4673-bc12-ddeb1ef2dac9)
-
+![LAB2 DAY1](https://github.com/user-attachments/assets/c8db4b28-963c-4853-8160-237dea882ef1)
 ```
 ### RESULT
 ```
