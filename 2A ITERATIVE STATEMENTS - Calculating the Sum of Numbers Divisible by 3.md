@@ -31,7 +31,7 @@ print("Sum is:",sum)
 ```
 ### OUTPUT
 ```
-![LAB2 DAY1](https://github.com/user-attachments/assets/3fc1f739-e0aa-436a-8ac9-e6ac4ac16952)
+![LAB2 DAY1](https://github.com/user-attachments/assets/bb09f919-044c-4673-bc12-ddeb1ef2dac9)
 
 ```
 ### RESULT
