@@ -59,3 +59,4 @@ strong(a)
 
 
 ### RESULT
+Thus, the Python program to check whether a given number is a strong number or not using a function has been implemented and executed successfully.
