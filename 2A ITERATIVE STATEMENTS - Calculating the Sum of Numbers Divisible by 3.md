@@ -39,5 +39,5 @@ while i<=a:
 
 ### RESULT
 ```
-
+Thus, the Python program to print `n` natural numbers using a `for` loop has been implemented and executed successfully.
 ```
