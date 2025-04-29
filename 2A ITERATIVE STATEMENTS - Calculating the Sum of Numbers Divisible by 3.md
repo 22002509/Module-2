@@ -24,17 +24,12 @@ To create a Python program for printing `n` natural numbers using a `for` loop.
 #Reg.NO:212222040120
 #Name:PRASANNA R
 #Write your Code here
-a=int(input())
-print("Natural Numbers are :")
-i=1
-while i<=a:
-    
-    print(i)
-    i+=1
+
 ```
 ### OUTPUT
 ```
-![LAB2 DAY1](https://github.com/user-attachments/assets/d2b6cae6-b491-43db-ad96-0c1172305616)
+![LAB2 DAY1](https://github.com/user-attachments/assets/f2ed883c-f413-416c-8dbb-52530c0f5e30)
+
 
 ```
 ### RESULT
