@@ -1,5 +1,5 @@
 # Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - Calculate the Expression (x + 10) + (y + 2) * z 
 
 ---
 
