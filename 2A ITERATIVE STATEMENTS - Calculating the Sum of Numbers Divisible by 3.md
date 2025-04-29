@@ -34,7 +34,8 @@ while i<=a:
 ```
 ### OUTPUT
 ```
-![LAB2 DAY1](https://github.com/user-attachments/assets/5714623d-8183-4973-b747-1cede756ff99)
+![LAB2 DAY1](https://github.com/user-attachments/assets/8cce339d-3604-4d85-a939-eacd4846ba08)
+
 ```
 ### RESULT
 ```
