@@ -34,10 +34,8 @@ print(a(x,y,z))
 
 ### OUTPUT
 
-```
 ![LAB2 DAY3](https://github.com/user-attachments/assets/19041023-a316-4e34-93ad-68cb81073cdc)
 
-```
 
 ### RESULT
 
