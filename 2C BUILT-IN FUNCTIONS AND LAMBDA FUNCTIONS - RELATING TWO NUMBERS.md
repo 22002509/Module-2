@@ -39,6 +39,5 @@ print(a(x,y,z))
 
 ### RESULT
 
-```
 Thus, the Python program to calculate the value of the given expression using a lambda function has been implemented and executed successfully.
-```
+
